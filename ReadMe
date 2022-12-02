@@ -1,0 +1,42 @@
+# Eta_David_QuickSort.cpp
+Run:
+> g++ -Wall -std=c++11 Eta_David_QuickSort.cpp
+> ./a.out
+In the terminal.
+
+This will run the quicksort program on a text file called "input.txt" and output how long it took into a text file called "output.txt" as well as the terminal.
+
+
+# InputFileGenerator.cpp
+Run:
+> g++ -Wall -std=c++11 InputFileGenerator.cpp
+> ./a.out
+In the terminal
+
+The terminal will ask for an integer x and compile 25 text files each with x number of random decimal numbers between -500 and 500.
+
+
+# Eta_David_averageExecutionTime.txt
+If the program does not run, be sure to create this file and make sure it is empty before running it.
+
+
+# Eta_David_executionTime.txt
+If the program does not run, be sure to create this file and make sure it is empty before running it.
+
+
+# main.cpp
+Run:
+> g++ -Wall -std=c++11 main.cpp
+> ./a.out
+In the terminal.
+
+This will call the InputFileGenerator program to create 25 files for each input file then
+calcluate how long it takes to sort each file and the average per input size.
+
+These values are recorded in "Eta_David_executionTime.txt" and"Eta_David_averageExecutionTime.txt" respectively.
+
+This does not depend on any other program to run as the files it is dependent on (such as "InputFileGenerator.cpp" and "Eta_David_QuickSort.cpp") have been replicated into header files which were called in the file.
+
+
+# Makefile
+This can run the main.cpp file exactly as it should be run as well as clean out the other files before starting a new session.
