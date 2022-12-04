@@ -16,10 +16,12 @@ This does not depend on any other program to run as the files it is dependent on
 
 # Eta_David_averageExecutionTime.txt
 If the program does not run, be sure to create this file and make sure it is empty before running it.
+This holds the average time each set of 25 files of a number of numbers takes to be sorted in milliseconds.
 
 
 # Eta_David_executionTime.txt
 If the program does not run, be sure to create this file and make sure it is empty before running it.
+This holds how long it takes to run quicksort on each file in milliseconds. 
 
 
 # Makefile
