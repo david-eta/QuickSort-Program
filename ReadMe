@@ -1,9 +1,9 @@
 
-#vqsort.h
+# qsort.h
 This sorts an array using the quicksort algorithm.
 
 
-# InputFileGenerator
+# InputFileGenerator.h
 This generates a files with x number of random values between -500 and 500. Where x is the input size.
 
 
