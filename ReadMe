@@ -1,4 +1,12 @@
 
+#vqsort.h
+This sorts an array using the quicksort algorithm.
+
+
+# InputFileGenerator
+This generates a files with x number of random values between -500 and 500. Where x is the input size.
+
+
 # main.cpp
 Run:
 > g++ -Wall -std=c++11 main.cpp
@@ -6,12 +14,19 @@ Run:
 in the terminal.
 
 This will call the InputFileGenerator program to create 25 files for each input file then
-calcluate how long it takes to sort each file and the average per input size.
+calcluate how long it takes to sort each file and the average per input size. For the purpose of this exercise, the only input sizes used are 10, 100 and 1000.
 
 These values are recorded in "Eta_David_executionTime.txt" and"Eta_David_averageExecutionTime.txt" respectively.
 
-This does not depend on any other program to run as the files it is dependent on (such as "InputFileGenerator.cpp" and "Eta_David_QuickSort.cpp") have been replicated into header files which were called in the file.
 
+# other_option.cpp
+Run:
+> g++ -Wall -std=c++11 other_option.cpp
+> ./a.out
+in the terminal.
+
+This works the exact same way as main.cpp except it generates its own arrays and does not read from randomly generated files.
+It also allows the user to specify any input size as many times as they want.
 
 
 # Eta_David_averageExecutionTime.txt
